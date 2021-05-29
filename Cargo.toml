@@ -1,0 +1,11 @@
+[package]
+name = "file-chooser-test"
+version = "0.1.0"
+authors = ["Joe Neeman <joeneeman@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+ashpd = { git = "https://github.com/bilelmoussaoui/ashpd.git" }
+futures = "0.3.15"
+tokio = {version = "1.6.0", features=["rt", "macros"]}
+
